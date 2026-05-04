@@ -3,9 +3,7 @@
 Problem Statement:
 
 What is the problem?
-
-Crowded places are not watched properly in real time. 
-
+Crowded places are not watched properly in real time.
 Humans watching CCTV can miss things like too many people, accidents, or suspicious behavior.
 
 
