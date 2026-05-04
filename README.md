@@ -75,8 +75,11 @@ What I Learned
 Next Steps  :
 
 • I will learn more about the problem and existing solutions
+
 • I will talk to others (mentors/users) to get feedback
+
 • I will improve my idea based on their suggestions
+
 • I will check if my idea is easy and possible to build
 
 
