@@ -219,7 +219,7 @@ The system captures live CCTV video feeds and processes frames using YOLOv8 and 
 ## 7.2 System Architecture
 
 ```md
-![System Architecture](images/architecture.png)
+
 ```
 
 ---
