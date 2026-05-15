@@ -1,4 +1,5 @@
-<p align="center">
+
+This research presents an AI-ML-based computer vision system for real-time crowd analytics and safety monitoring in public transportation sys<p align="center">
   <img src="https://www.erafoundationindia.org/images/logo.svg" width="220"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://comedkares.org/wp-content/uploads/2023/04/Comedkares-Logo-EPS.png" width="220"/>
@@ -324,8 +325,7 @@ The proposed AI-based surveillance system improves crowd monitoring and safety m
 ---
 
 #  14. Conclusion
-
-This research presents an AI-ML-based computer vision system for real-time crowd analytics and safety monitoring in public transportation systems. By combining YOLOv8, CSRNet, and intelligent analytics, the system improves crowd monitoring accuracy, reduces manual effort, and enhances public safety.
+tems. By combining YOLOv8, CSRNet, and intelligent analytics, the system improves crowd monitoring accuracy, reduces manual effort, and enhances public safety.
 
 ---
 
