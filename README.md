@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="https://www.erafoundationindia.org/images/logo.svg" width="220"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
@@ -7,208 +6,71 @@
 
 ---
 
-# AI-ML-Based Computer Vision for Real-Time Safety and Crowd Analytics in Public Transportation
+# AI-ML-Based-Computer-Vision-for-Real-Time-Safety-and-Crowd-Analytics
 
-## IEEE Style Research Paper
+# Project Overview
 
-### Submitted By
+This project focuses on developing an AI-ML-based computer vision system for real-time crowd monitoring and safety analytics in public transportation systems such as railway stations, metro stations, and buses.
 
-**Ananya K N**  
-USN: 1DA24MC005  
-Department of MCA  
-Dr. Ambedkar Institute of Technology  
+The system uses Artificial Intelligence, Machine Learning, and Computer Vision techniques to detect people, estimate crowd density, monitor overcrowding, and generate automated safety alerts using CCTV surveillance feeds.
 
-**Guide / Mentor:**  
-Dr. L. Manjunatha Rao  
-Professor, MCA Program  
+The project aims to improve public safety, reduce manual monitoring effort, and support smart transportation systems.
 
 ---
 
-#  Abstract
-
-Public transportation systems such as railway stations, metro stations, and buses often face overcrowding and safety-related issues. Traditional CCTV surveillance systems depend on manual monitoring, which can result in delayed responses and missed incidents. This research proposes an AI-ML-based computer vision system for real-time crowd analytics and safety monitoring.
-
-The proposed system combines YOLOv8 for real-time human detection and CSRNet for crowd density estimation. The system processes live CCTV video feeds, analyzes crowd density, classifies crowd levels, and generates automated alerts when overcrowding is detected. A dashboard with heatmaps and analytics is used to visualize crowd conditions in real time.
-
-The research also studies Formal Concept Analysis (FCA)-based crowd prevention techniques for intelligent crowd management and congestion control. The proposed solution improves surveillance efficiency, reduces human effort, and supports smart city and public transportation safety applications.
-
----
-
-#  Keywords
-
-- Artificial Intelligence
-- Machine Learning
-- Computer Vision
-- Crowd Analytics
-- YOLOv8
-- CSRNet
-- Formal Concept Analysis
-- Smart Surveillance
-
----
-
-#  1. Introduction
-
-## 1.1 Background
-
-Public transportation systems are used by millions of people every day. Managing crowd movement and ensuring passenger safety are major challenges in metro stations, railway stations, and buses. AI and computer vision technologies help automate surveillance systems and improve crowd monitoring.
-
-## 1.2 Problem Overview
-
-Traditional CCTV systems depend on human operators to monitor multiple video feeds continuously. This process is time-consuming and prone to human error, especially in highly crowded situations.
-
-## 1.3 Need for the Study
-
-There is a need for an intelligent automated system capable of real-time crowd detection, density estimation, and alert generation to improve public safety and reduce accidents caused by overcrowding.
-
-## 1.4 Objectives
+# Objectives
 
 - Develop a real-time crowd monitoring system
 - Detect overcrowding using AI models
-- Generate automated safety alerts
-- Improve crowd management efficiency
-
-## 1.5 Scope of the Work
-
-The project focuses on AI-based crowd monitoring and safety analytics in public transportation environments using CCTV surveillance systems.
+- Generate automated alerts for unsafe crowd levels
+- Improve crowd management and public safety
+- Reduce manual CCTV monitoring effort
 
 ---
 
-#  2. Literature Review
+# Problem Statement
 
-## 2.1 Research Paper 1
+Traditional CCTV surveillance systems depend on human operators to continuously monitor multiple video feeds. In crowded public transportation environments, this can lead to delayed responses, missed incidents, and reduced safety management efficiency.
 
-### Paper Details
+There is a need for an intelligent automated system capable of:
 
-| Attribute | Details |
-|---|---|
-| Title | Intelligent Real-Time Crowd Density Estimation for Proactive Event Safety: A Machine Learning Approach |
-| Authors | Sheela S Maharajpet, Ananya V Hegde |
-| Year | 2025 |
-| Technologies Used | YOLOv8, CSRNet, OpenCV |
-| Methodology | Real-time crowd detection and density estimation |
-| Results | 95.3% detection accuracy with 28 FPS processing |
-
-### Summary
-
-This paper proposes a real-time crowd monitoring system using YOLOv8 and CSRNet. YOLOv8 performs fast human detection, while CSRNet estimates crowd density in highly crowded environments. The system classifies crowd density into four levels: Low, Medium, High, and Critical.
-
-A web dashboard with heatmaps and automated alerts helps operators monitor crowded zones efficiently. The system achieved high detection accuracy and real-time processing performance.
-
-### Advantages
-
-- High crowd detection accuracy
-- Real-time processing
-- Heatmap visualization
-- Automated alert generation
-
-### Limitations
-
-- Performance decreases in heavy occlusion
-- Requires GPU support
-- Indoor lighting affects accuracy
-
----
-
-## 2.2 Research Paper 2
-
-### Paper Details
-
-| Attribute | Details |
-|---|---|
-| Title | A Synergy Between Machine Learning and Formal Concept Analysis for Crowd Detection |
-| Authors | Anas M. Al-Oraiqat et al. |
-| Year | 2025 |
-| Technologies Used | U-Net, FCA, OpenCV |
-| Methodology | ML + Formal Concept Analysis for crowd prevention |
-| Results | Efficient crowd clustering and prevention planning |
-
-### Summary
-
-This paper presents a hybrid framework combining Machine Learning and Formal Concept Analysis (FCA) for crowd detection and prevention. U-Net detects human bodies from infrared thermal videos, while FCA is used to identify crowded zones and generate prevention plans.
-
-The framework creates lattice structures to cluster zones based on crowd density and movement. It identifies dangerous areas and recommends migration plans to redistribute crowds safely.
-
-### Advantages
-
-- Intelligent crowd prevention planning
-- Distributed and scalable architecture
-- Real-time crowd analysis
-- Mathematical crowd clustering
-
-### Limitations
-
-- High FCA computational complexity
-- Limited large-scale real-time performance
-- Requires thermal camera setup
-
----
-
-# 3. Comparative Analysis
-
-| Feature | Paper 1 | Paper 2 |
-|---|---|---|
-| Core Technology | YOLOv8 + CSRNet | U-Net + FCA |
-| Input Source | CCTV/Drone Video | Infrared Thermal Video |
-| Main Focus | Detection + Density Estimation | Detection + Prevention Planning |
-| Alert System | Threshold-based Alerts | FCA-based Prevention Plans |
-| Scalability | Edge GPU Deployment | Distributed Microcomputers |
-| Visualization | Heatmaps Dashboard | Lattice-based Clustering |
-
----
-
-# 4. Research Gaps Identified
-
-## Gap 1
-
-Existing systems struggle in highly crowded environments with heavy occlusion.
-
-## Gap 2
-
-Many crowd monitoring systems require expensive hardware and GPUs.
-
-## Gap 3
-
-Most systems focus only on detection and lack intelligent crowd prevention planning.
-
----
-
-# 5. Problem Statement
-
-Existing crowd monitoring systems in public transportation environments suffer from delayed detection, limited real-time performance, and lack of intelligent crowd management mechanisms.
-
----
-
-# 6. Proposed Solution
-
-The proposed system combines AI, Machine Learning, and Computer Vision techniques for real-time crowd monitoring, density estimation, and automated safety alert generation.
-
-## 6.1 System Overview
-
-The system captures live CCTV video feeds and processes frames using YOLOv8 and OpenCV. Crowd density is estimated using AI models, and alerts are generated when crowd levels exceed safe thresholds.
-
-## 6.2 Key Features
-
-- Real-time people detection
+- Real-time crowd detection
 - Crowd density estimation
-- Heatmap visualization
-- Automated alert generation
-- Dashboard analytics
-
-## 6.3 Advantages of Proposed System
-
-- Improved crowd monitoring
-- Faster emergency response
-- Reduced manual supervision
-- Better public safety
+- Safety alert generation
+- Intelligent crowd analytics
 
 ---
 
-#  7. Methodology
+# Proposed Solution
 
-## 7.1 Workflow
+The proposed system combines AI, Machine Learning, and Computer Vision techniques for real-time crowd monitoring and safety analytics.
 
-1. Capture CCTV video feed
+The system processes live CCTV video feeds using YOLOv8 and crowd density estimation models to:
+
+- Detect people in real time
+- Analyze crowd density
+- Classify crowd levels
+- Generate alerts for overcrowding
+- Display heatmaps and analytics on dashboards
+
+---
+
+#Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| Python | Programming Language |
+| OpenCV | Video Processing |
+| YOLOv8 | Human Detection |
+| CSRNet | Crowd Density Estimation |
+| TensorFlow | Deep Learning Framework |
+| Streamlit | Dashboard Development |
+
+---
+
+# System Workflow
+
+1. Capture live CCTV video feed
 2. Preprocess video frames
 3. Detect people using YOLOv8
 4. Estimate crowd density
@@ -217,21 +79,7 @@ The system captures live CCTV video feeds and processes frames using YOLOv8 and 
 
 ---
 
-## 7.2 System Architecture
-
-```md
-
-```
-
----
-
-## 7.3 Data Flow
-
-Video frames are captured from surveillance cameras and processed using AI models. Crowd information is analyzed and displayed through dashboards and alerts.
-
----
-
-## 7.4 Algorithms Used
+# Algorithms Used
 
 - YOLOv8
 - CSRNet
@@ -240,43 +88,124 @@ Video frames are captured from surveillance cameras and processed using AI model
 
 ---
 
-# 8. Implementation Details
+# Literature Review
 
-## 8.1 Hardware Requirements
+## Research Paper 1
 
-| Component | Specification |
+### Intelligent Real-Time Crowd Density Estimation for Proactive Event Safety: A Machine Learning Approach
+
+| Attribute | Details |
 |---|---|
-| Processor | Intel i5/i7 |
-| RAM | 8GB or above |
-| GPU | NVIDIA GPU Recommended |
+| Authors | Sheela S Maharajpet, Ananya V Hegde |
+| Year | 2025 |
+| Technologies | YOLOv8, CSRNet, OpenCV |
+| Focus | Crowd Detection and Density Estimation |
+
+### Advantages
+
+- Real-time crowd monitoring
+- High detection accuracy
+- Heatmap visualization
+- Automated alerts
+
+### Limitations
+
+- Heavy occlusion affects accuracy
+- Requires GPU support
+- Lighting conditions impact performance
 
 ---
 
-## 8.2 Software Requirements
+## Research Paper 2
 
-| Software | Version |
+### A Synergy Between Machine Learning and Formal Concept Analysis for Crowd Detection
+
+| Attribute | Details |
 |---|---|
-| Python | 3.10 |
-| TensorFlow | Latest |
-| OpenCV | Latest |
-| Streamlit | Latest |
+| Authors | Anas M. Al-Oraiqat et al. |
+| Year | 2025 |
+| Technologies | U-Net, FCA, OpenCV |
+| Focus | Crowd Detection and Prevention Planning |
+
+### Advantages
+
+- Intelligent crowd prevention
+- Real-time analysis
+- Scalable architecture
+
+### Limitations
+
+- High computational complexity
+- Thermal camera dependency
+- Limited real-time scalability
 
 ---
 
-## 8.3 Tools and Technologies
+## Research Paper 3
 
-- Python
-- OpenCV
-- TensorFlow
-- YOLOv8
-- CSRNet
-- Streamlit
+### Real-Time Crowd Detection to Prevent Stampede
+
+| Attribute | Details |
+|---|---|
+| Authors | Sabrina Haque, Muhammad Sheikh Sadi, Md. Erfanul Haque Rafi, Md. Milon Islam, Md. Kamrul Hasan |
+| Year | 2018 (Published 2020) |
+| Technologies | CNN (VGG-16 based), Image Erosion, Raspberry Pi, Gaussian Filtering |
+| Focus | Real-Time Crowd Detection and Stampede Prevention |
+
+### Advantages
+
+- Dual-method approach improves robustness
+- Real-time crowd detection using Raspberry Pi
+- Automated overcrowding notification system
+- Supports both small and large crowd areas
+- Data augmentation improves limited dataset training
+
+### Limitations
+
+- Erosion method is sensitive to noise
+- Limited dataset size affects training diversity
+- Performance reduces during heavy occlusion
+- Raspberry Pi limits processing speed
+- Mainly designed for still-image analysis
 
 ---
 
-#  9. Experimental Setup
+# Comparative Analysis
 
-The system is trained and tested using public crowd datasets such as ShanghaiTech and UCF-QNRF. Different crowd scenarios are analyzed to evaluate system performance.
+| Feature | Paper 1 | Paper 2 | Paper 3 |
+|---|---|---|---|
+| Core Technology | YOLOv8 + CSRNet | U-Net + FCA | CNN + Image Erosion |
+| Input Source | CCTV Video | Thermal Video | Camera Images |
+| Main Focus | Detection + Density Estimation | Prevention Planning | Stampede Prevention |
+| Alert System | Threshold Alerts | FCA-Based Prevention | WAN Notifications |
+| Visualization | Heatmaps | Lattice Clustering | Crowd Counting |
+| Hardware | GPU Systems | Distributed Systems | Raspberry Pi |
+
+---
+
+#  Research Gaps
+
+- Existing systems struggle in highly crowded environments
+- Many systems require expensive hardware
+- Most systems focus only on detection
+- Limited intelligent crowd prevention methods
+
+---
+
+# System Architecture
+
+```md
+![System Architecture](images/architecture.png)
+```
+
+---
+
+# Experimental Setup
+
+The system is trained and tested using public crowd datasets such as:
+
+- ShanghaiTech Dataset
+- UCF-QNRF Dataset
 
 ### Evaluation Metrics
 
@@ -288,7 +217,7 @@ The system is trained and tested using public crowd datasets such as ShanghaiTec
 
 ---
 
-# 10. Results and Analysis
+# Results and Analysis
 
 | Metric | Existing System | Proposed System |
 |---|---|---|
@@ -300,21 +229,25 @@ The system is trained and tested using public crowd datasets such as ShanghaiTec
 
 ---
 
-# 11. Discussion
+#  Advantages of Proposed System
 
-The proposed AI-based surveillance system improves crowd monitoring and safety management in public transportation environments. Compared to traditional systems, it provides faster detection, better visualization, and intelligent alert generation.
+- Real-time crowd monitoring
+- Faster emergency response
+- Reduced manual supervision
+- Improved public safety
+- Intelligent analytics dashboard
 
 ---
 
-# 12. Limitations
+# Limitations
 
-- Reduced accuracy under heavy occlusion
+- Reduced accuracy in heavy crowd conditions
 - Requires good camera quality
 - High computational requirements
 
 ---
 
-# 13. Future Scope
+# 🚀 Future Scope
 
 - Edge AI deployment
 - IoT integration
@@ -324,35 +257,49 @@ The proposed AI-based surveillance system improves crowd monitoring and safety m
 
 ---
 
-#  14. Conclusion
-tems. By combining YOLOv8, CSRNet, and intelligent analytics, the system improves crowd monitoring accuracy, reduces manual effort, and enhances public safety.
+#  Conclusion
+
+This project presents an AI-ML-based computer vision system for real-time safety and crowd analytics in public transportation systems.
+
+By combining YOLOv8, CSRNet, and intelligent analytics techniques, the system improves crowd monitoring efficiency, reduces manual effort, and enhances public safety.
+
+The proposed solution can support smart city applications and future intelligent transportation systems.
 
 ---
 
-#  15. References
+#  Project Details
 
-[1] Sheela S Maharajpet and Ananya V Hegde, “Intelligent Real-Time Crowd Density Estimation for Proactive Event Safety: A Machine Learning Approach,” Recent Research Reviews Journal, vol. 4, issue 2, 2025.
+### Submitted By
 
-[2] Anas M. Al-Oraiqat et al., “A Synergy Between Machine Learning and Formal Concept Analysis for Crowd Detection,” IEEE Access, vol. 13, 2025.
+**Ananya K N**  
+USN: 1DA24MC005  
+Department of MCA  
+Dr. Ambedkar Institute of Technology  
 
----
+### Guide / Mentor
 
-#  Appendix
-
-- Heatmap outputs
-- Crowd detection screenshots
-- Dashboard images
-- Accuracy graphs
-
----
-
-# Declaration
-
-We hereby declare that this research work is original and has been carried out under the guidance of the faculty mentor. All references used in this paper have been properly cited.
+Dr. L. Manjunatha Rao  
+Professor, MCA Program  
 
 ---
 
-#  Acknowledgement
+# References
+
+1. Sheela S Maharajpet and Ananya V Hegde,  
+   *Intelligent Real-Time Crowd Density Estimation for Proactive Event Safety: A Machine Learning Approach*, 2025.  
+   🔗 Link: https://rrjournals.com/index.php/rrijm/article/view/2330
+
+2. Anas M. Al-Oraiqat et al.,  
+   *A Synergy Between Machine Learning and Formal Concept Analysis for Crowd Detection*, IEEE Access, 2025.  
+   🔗 Link: https://ieeexplore.ieee.org/document/10947394
+
+3. Sabrina Haque et al.,  
+   *Real-Time Crowd Detection to Prevent Stampede*, IJCCI 2018 Proceedings, Springer, Published 2020.  
+   🔗 Link: https://link.springer.com/chapter/10.1007/978-981-13-7564-4_56
+
+---
+
+#Acknowledgement
 
 We sincerely thank:
 
