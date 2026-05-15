@@ -9,9 +9,9 @@
 # AI-ML-Based-Computer-Vision-for-Real-Time-Safety-and-Crowd-Analytics
 ### Submitted by
 
-Student Name       : Nikhitha H S
+Student Name       : Ananya K N
 
-USN / Roll Number  : 1DA24MC033
+USN / Roll Number  : 1DA24MC005
 
 Department Name    : MCA
 
@@ -22,9 +22,9 @@ Institution Name   : Dr. Ambedkar Institute of Technology.
  Guide: Harsha T R
 
  
- Mentor1 : Chinthan M
+ Mentor : Sufian
  
- Mentor2 : Pranav 
+
  
 
 #  Project Overview
