@@ -288,7 +288,7 @@ The system is trained and tested using public crowd datasets such as:
 
 ---
 
-# 🚀 Future Scope
+#  Future Scope
 
 - Edge AI deployment
 - IoT integration
