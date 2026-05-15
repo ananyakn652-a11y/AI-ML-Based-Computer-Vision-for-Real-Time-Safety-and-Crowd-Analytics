@@ -510,13 +510,16 @@ The proposed framework aims to improve crowd monitoring efficiency, reduce manua
 # 15. References
 
 [1] Sheela S Maharajpet and Ananya V Hegde,  
-Intelligent Real-Time Crowd Density Estimation for Proactive Event Safety: A Machine Learning Approach, 2025.
+Intelligent Real-Time Crowd Density Estimation for Proactive Event Safety: A Machine Learning Approach, 2025
+🔗 Link: https://rrjournals.com/index.php/rrijm/article/view/2330.
 
 [2] Anas M. Al-Oraiqat et al.,  
-A Synergy Between Machine Learning and Formal Concept Analysis for Crowd Detection, IEEE Access, 2025.
+A Synergy Between Machine Learning and Formal Concept Analysis for Crowd Detection, IEEE Access, 2025
+🔗 Link: https://ieeexplore.ieee.org/document/10947394.
 
 [3] Sabrina Haque et al.,  
-Real-Time Crowd Detection to Prevent Stampede, IJCCI 2018 Proceedings, Springer, Published 2020.
+Real-Time Crowd Detection to Prevent Stampede, IJCCI 2018 Proceedings, Springer, Published 2020
+🔗 Link: https://link.springer.com/chapter/10.1007/978-981-13-7564-4_56.
 
 ---
 
