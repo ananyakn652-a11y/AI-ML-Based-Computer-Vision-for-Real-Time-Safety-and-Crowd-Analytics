@@ -12,7 +12,7 @@
 
 This project focuses on developing an AI-ML-based computer vision system for real-time crowd monitoring and safety analytics in public transportation systems such as railway stations, metro stations, and buses.
 
-The system uses Artificial Intelligence, Machine Learning, and Computer Vision techniques to detect people, estimate crowd density, monitor overcrowding, and generate automated safety alerts using CCTV surveillance feeds.
+The system uses Artificial Intelligence, Machine Learning, and Computer Vision techniques to detect people, estimate crowd density, monitor overcrowding, and generate automated safety alerts using CCTV surveillance feeds[1][3].
 
 The project aims to improve public safety, reduce manual monitoring effort, and support smart transportation systems.
 
@@ -30,7 +30,7 @@ The project aims to improve public safety, reduce manual monitoring effort, and 
 
 #  Problem Statement
 
-Traditional CCTV surveillance systems depend on human operators to continuously monitor multiple video feeds. In crowded public transportation environments, this can lead to delayed responses, missed incidents, and reduced safety management efficiency.
+Traditional CCTV surveillance systems depend on human operators to continuously monitor multiple video feeds. In crowded public transportation environments, this can lead to delayed responses, missed incidents, and reduced safety management efficiency[1].
 
 There is a need for an intelligent automated system capable of:
 
@@ -47,11 +47,11 @@ The proposed system combines AI, Machine Learning, and Computer Vision technique
 
 The system processes live CCTV video feeds using YOLOv8 and crowd density estimation models to:
 
-- Detect people in real time
-- Analyze crowd density
-- Classify crowd levels
-- Generate alerts for overcrowding
-- Display heatmaps and analytics on dashboards
+- Detect people in real time[1]
+- Analyze crowd density[1][3]
+- Classify crowd levels[1]
+- Generate alerts for overcrowding[1][3]
+- Display heatmaps and analytics on dashboards[1]
 
 ---
 
@@ -72,19 +72,19 @@ The system processes live CCTV video feeds using YOLOv8 and crowd density estima
 
 1. Capture live CCTV video feed
 2. Preprocess video frames
-3. Detect people using YOLOv8
-4. Estimate crowd density
-5. Generate heatmaps and alerts
+3. Detect people using YOLOv8[1]
+4. Estimate crowd density[1][3]
+5. Generate heatmaps and alerts[1]
 6. Display analytics on dashboard
 
 ---
 
 #  Algorithms Used
 
-- YOLOv8
-- CSRNet
-- CNN
-- OpenCV
+- YOLOv8[1]
+- CSRNet[1]
+- CNN[1]
+- OpenCV[1][2][3]
 
 ---
 
@@ -185,10 +185,10 @@ The system processes live CCTV video feeds using YOLOv8 and crowd density estima
 
 #  Research Gaps
 
-- Existing systems struggle in highly crowded environments
-- Many systems require expensive hardware
-- Most systems focus only on detection
-- Limited intelligent crowd prevention methods
+- Existing systems struggle in highly crowded environments[1][3]
+- Many systems require expensive hardware[1]
+- Most systems focus only on detection[2]
+- Limited intelligent crowd prevention methods[2]
 
 ---
 
@@ -245,8 +245,8 @@ The system processes live CCTV video feeds using YOLOv8 and crowd density estima
 
 The system is trained and tested using public crowd datasets such as:
 
-- ShanghaiTech Dataset
-- UCF-QNRF Dataset
+- ShanghaiTech Dataset[1]
+- UCF-QNRF Dataset[1]
 
 ### Evaluation Metrics
 
@@ -272,19 +272,19 @@ The system is trained and tested using public crowd datasets such as:
 
 #  Advantages of Proposed System
 
-- Real-time crowd monitoring
+- Real-time crowd monitoring[1]][3]
 - Faster emergency response
 - Reduced manual supervision
 - Improved public safety
-- Intelligent analytics dashboard
+- Intelligent analytics dashboard[1]
 
 ---
 
 #  Limitations
 
-- Reduced accuracy in heavy crowd conditions
+- Reduced accuracy in heavy crowd conditions[1][3]
 - Requires good camera quality
-- High computational requirements
+- High computational requirements[1][2]
 
 ---
 
@@ -302,7 +302,7 @@ The system is trained and tested using public crowd datasets such as:
 
 This project presents an AI-ML-based computer vision system for real-time safety and crowd analytics in public transportation systems.
 
-By combining YOLOv8, CSRNet, and intelligent analytics techniques, the system improves crowd monitoring efficiency, reduces manual effort, and enhances public safety.
+By combining YOLOv8, CSRNet, and intelligent analytics techniques, the system improves crowd monitoring efficiency, reduces manual effort, and enhances public safety[1][2][3].
 
 The proposed solution can support smart city applications and future intelligent transportation systems.
 
