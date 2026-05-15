@@ -55,7 +55,7 @@ The system processes live CCTV video feeds using YOLOv8 and crowd density estima
 
 ---
 
-#Technologies Used
+# Technologies Used
 
 | Technology | Purpose |
 |---|---|
