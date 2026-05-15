@@ -8,7 +8,7 @@
 
 # AI-ML-Based-Computer-Vision-for-Real-Time-Safety-and-Crowd-Analytics
 
-# Project Overview
+#  Project Overview
 
 This project focuses on developing an AI-ML-based computer vision system for real-time crowd monitoring and safety analytics in public transportation systems such as railway stations, metro stations, and buses.
 
@@ -18,7 +18,7 @@ The project aims to improve public safety, reduce manual monitoring effort, and 
 
 ---
 
-# Objectives
+#  Objectives
 
 - Develop a real-time crowd monitoring system
 - Detect overcrowding using AI models
@@ -28,7 +28,7 @@ The project aims to improve public safety, reduce manual monitoring effort, and 
 
 ---
 
-# Problem Statement
+#  Problem Statement
 
 Traditional CCTV surveillance systems depend on human operators to continuously monitor multiple video feeds. In crowded public transportation environments, this can lead to delayed responses, missed incidents, and reduced safety management efficiency.
 
@@ -41,7 +41,7 @@ There is a need for an intelligent automated system capable of:
 
 ---
 
-# Proposed Solution
+#  Proposed Solution
 
 The proposed system combines AI, Machine Learning, and Computer Vision techniques for real-time crowd monitoring and safety analytics.
 
@@ -55,7 +55,7 @@ The system processes live CCTV video feeds using YOLOv8 and crowd density estima
 
 ---
 
-# Technologies Used
+#  Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -68,7 +68,7 @@ The system processes live CCTV video feeds using YOLOv8 and crowd density estima
 
 ---
 
-# System Workflow
+#  System Workflow
 
 1. Capture live CCTV video feed
 2. Preprocess video frames
@@ -79,7 +79,7 @@ The system processes live CCTV video feeds using YOLOv8 and crowd density estima
 
 ---
 
-# Algorithms Used
+#  Algorithms Used
 
 - YOLOv8
 - CSRNet
@@ -88,7 +88,7 @@ The system processes live CCTV video feeds using YOLOv8 and crowd density estima
 
 ---
 
-# Literature Review
+#  Literature Review
 
 ## Research Paper 1
 
@@ -170,7 +170,7 @@ The system processes live CCTV video feeds using YOLOv8 and crowd density estima
 
 ---
 
-# Comparative Analysis
+#  Comparative Analysis
 
 | Feature | Paper 1 | Paper 2 | Paper 3 |
 |---|---|---|---|
@@ -192,15 +192,56 @@ The system processes live CCTV video feeds using YOLOv8 and crowd density estima
 
 ---
 
-# System Architecture
+#  System Architecture
 
-```md
-
+```text
+                    +----------------------+
+                    |   CCTV / Camera Feed |
+                    +----------+-----------+
+                               |
+                               v
+                    +----------------------+
+                    |   Video Frame Capture |
+                    +----------+-----------+
+                               |
+                               v
+                    +----------------------+
+                    |  Frame Preprocessing  |
+                    | (Resize, Filtering)   |
+                    +----------+-----------+
+                               |
+                --------------------------------
+                |                              |
+                v                              v
+     +-------------------+        +----------------------+
+     |   YOLOv8 Model    |        |   CSRNet / CNN Model |
+     | Human Detection   |        | Crowd Density Est.   |
+     +---------+---------+        +----------+-----------+
+               |                             |
+               ---------------+---------------
+                               |
+                               v
+                    +----------------------+
+                    | Crowd Analysis Module |
+                    | Density Classification|
+                    +----------+-----------+
+                               |
+                               v
+                    +----------------------+
+                    | Alert Generation Unit |
+                    |  (Overcrowding Alert) |
+                    +----------+-----------+
+                               |
+                               v
+                    +----------------------+
+                    | Dashboard & Heatmaps |
+                    | Real-Time Analytics  |
+                    +----------------------+
 ```
 
 ---
 
-# Experimental Setup
+#  Experimental Setup
 
 The system is trained and tested using public crowd datasets such as:
 
@@ -239,7 +280,7 @@ The system is trained and tested using public crowd datasets such as:
 
 ---
 
-# Limitations
+#  Limitations
 
 - Reduced accuracy in heavy crowd conditions
 - Requires good camera quality
@@ -283,7 +324,7 @@ Professor, MCA Program
 
 ---
 
-# References
+#  References
 
 1. Sheela S Maharajpet and Ananya V Hegde,  
    *Intelligent Real-Time Crowd Density Estimation for Proactive Event Safety: A Machine Learning Approach*, 2025.  
@@ -299,7 +340,7 @@ Professor, MCA Program
 
 ---
 
-#Acknowledgement
+# Acknowledgement
 
 We sincerely thank:
 
