@@ -450,11 +450,11 @@ Training and testing are performed using AI models and automated analytics techn
 
 | Metric | Existing System | Proposed System |
 |---|---|---|
-| Accuracy | 86% | 95.3% |
-| Precision | 84% | 93% |
-| Recall | 82% | 92% |
-| F1-Score | 83% | 94% |
-| FPS | 20 FPS | 28 FPS |
+| Accuracy | 86% |  |
+| Precision | 84% |  |
+| Recall | 82% |  |
+| F1-Score | 83% |  |
+| FPS | 20 FPS |  |
 
 ---
 
